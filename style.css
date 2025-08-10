@@ -141,3 +141,12 @@ ul {
     font-weight: 800;
     font-size: 18px;
 }
+
+.main-4 {
+    padding: 100px 250px;
+}
+
+.main-4 .banner {
+    display: flex;
+
+}
