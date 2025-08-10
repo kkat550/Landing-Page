@@ -2,6 +2,7 @@
 
 * {
     font-family: Roboto, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,18 +14,20 @@ body {
     background-color: #1F2937;
     color: white;
     margin: 0;
-    padding: 0;
+    padding: 0 70px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 600;
+    padding: 0 0 0 50px;
+    color: #F9FAF8;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 50px 0 0;
 }
 
 .header a {
@@ -51,10 +54,33 @@ ul {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    width: 500px;
 }
 
 .main-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.paragraph-main-1 {
+    width: 450px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-1 button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-top: 7px;
+    padding: 7px 27px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.main-1 img {
+    margin: 50px 0;
 }
